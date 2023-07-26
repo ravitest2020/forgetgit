@@ -1,0 +1,145 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1641512918219,1763,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,723,349,1,1,null,0,58,1453
+1641512918276,1763,launch-73,200,OK,Thread Group 1-1,text,true,,723,349,1,1,https://www.google.com/complete/search?client=firefox&q=pe,1762,0,1453
+1641512920049,1346,enetrestore,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,5419,521,1,1,null,0,7,948
+1641512920051,1346,enetrestore-78,200,,Thread Group 1-1,text,true,,5419,521,1,1,https://petstore.octoperf.com/actions/Catalog.action,1345,0,948
+1641512921402,399,login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3847,652,1,1,null,0,4,0
+1641512921403,399,login-80,200,,Thread Group 1-1,text,true,,3847,652,1,1,https://petstore.octoperf.com/actions/Account.action;jsessionid=093BF6ECE782426BE2311319BA53DCC3?signonForm=,399,0,0
+1641512921806,455,login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,5115,1736,1,1,null,0,1,0
+1641512921807,455,login-81,200,,Thread Group 1-1,text,true,,5115,1736,1,1,https://petstore.octoperf.com/actions/Catalog.action,204,0,0
+1641512922263,806,selectcats,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3557,627,1,1,null,0,3,0
+1641512922264,806,selectcats-83,200,,Thread Group 1-1,text,true,,3557,627,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=BIRDS,806,0,0
+1641512923072,366,selectproduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3711,659,1,1,null,0,2,0
+1641512923073,366,selectproduct-88,200,,Thread Group 1-1,text,true,,3711,659,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=AV-SB-02,366,0,0
+1641512923441,511,addcart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,4564,661,1,1,null,0,0,0
+1641512923441,511,addcart-89,200,,Thread Group 1-1,text,true,,4564,661,1,1,https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-19,510,0,0
+1641512923953,720,proceed checkout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,5296,641,1,1,null,0,2,0
+1641512923953,720,proceed checkout-90,200,,Thread Group 1-1,text,true,,5296,641,1,1,https://petstore.octoperf.com/actions/Order.action?newOrderForm=,720,0,0
+1641512924676,403,inf,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,4410,1249,1,1,null,0,0,0
+1641512924676,403,inf-92,200,,Thread Group 1-1,text,true,,4410,1249,1,1,https://petstore.octoperf.com/actions/Order.action,402,0,0
+1641512925079,684,conform,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,5109,617,1,1,null,0,2,0
+1641512925080,684,conform-93,200,,Thread Group 1-1,text,true,,5109,617,1,1,https://petstore.octoperf.com/actions/Order.action?newOrder=&confirmed=true,684,0,0
+1641512925766,507,returnpage,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,7019,619,1,1,null,0,27,0
+1641512925766,506,returnpage-94,200,,Thread Group 1-1,text,true,,4897,619,1,1,https://petstore.octoperf.com/actions/Catalog.action,237,0,0
+1641512926299,1,Debug Sampler,200,OK,Thread Group 1-1,text,true,,2122,0,1,1,null,0,0,0
+1641512926300,13,BeanShell Sampler,500,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``FileWriter f = new FileWriter(""C:/Users/sanka/aswani/jmteroutput/jan6.txt"",true) . . . '' Token Parsing Error: Lexical error at line 10, column 1.  Encountered: ""\u200b"" (8203), after : """"",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1641512926313,197,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,723,349,1,1,null,0,1,0
+1641512926314,197,launch-73,200,OK,Thread Group 1-1,text,true,,723,349,1,1,https://www.google.com/complete/search?client=firefox&q=pe,197,0,0
+1641512926511,409,enetrestore,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,4897,574,1,1,null,0,2,0
+1641512926512,409,enetrestore-78,200,,Thread Group 1-1,text,true,,4897,574,1,1,https://petstore.octoperf.com/actions/Catalog.action,409,0,0
+1641512926923,294,login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3998,652,1,1,null,0,1,0
+1641512926923,294,login-80,200,,Thread Group 1-1,text,true,,3998,652,1,1,https://petstore.octoperf.com/actions/Account.action;jsessionid=093BF6ECE782426BE2311319BA53DCC3?signonForm=,294,0,0
+1641512927218,766,login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,5115,1736,1,1,null,0,2,0
+1641512927219,766,login-81,200,,Thread Group 1-1,text,true,,5115,1736,1,1,https://petstore.octoperf.com/actions/Catalog.action,560,0,0
+1641512927986,223,selectcats,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3553,626,2,2,null,0,2,0
+1641512927987,223,selectcats-83,200,,Thread Group 1-1,text,true,,3553,626,2,2,https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=CATS,223,0,0
+1641512928211,286,selectproduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3997,659,2,2,null,0,0,0
+1641512928211,286,selectproduct-88,200,,Thread Group 1-1,text,true,,3997,659,2,2,https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=FL-DSH-01,285,0,0
+1641512928201,296,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,723,349,2,2,null,0,3,118
+1641512928204,296,launch-73,200,OK,Thread Group 1-2,text,true,,723,349,2,2,https://www.google.com/complete/search?client=firefox&q=pe,296,0,118
+1641512928498,472,addcart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,4563,662,2,2,null,0,1,0
+1641512928498,472,addcart-89,200,,Thread Group 1-1,text,true,,4563,662,2,2,https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-15,471,0,0
+1641512928501,1184,enetrestore,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,5419,521,2,2,null,0,2,937
+1641512928501,1184,enetrestore-78,200,,Thread Group 1-2,text,true,,5419,521,2,2,https://petstore.octoperf.com/actions/Catalog.action,1183,0,937
+1641512928971,949,proceed checkout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,5296,641,2,2,null,0,2,0
+1641512928972,949,proceed checkout-90,200,,Thread Group 1-1,text,true,,5296,641,2,2,https://petstore.octoperf.com/actions/Order.action?newOrderForm=,710,0,0
+1641512929687,709,login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,3851,652,2,2,null,0,2,0
+1641512929688,709,login-80,200,,Thread Group 1-2,text,true,,3851,652,2,2,https://petstore.octoperf.com/actions/Account.action;jsessionid=093BF6ECE782426BE2311319BA53DCC3?signonForm=,709,0,0
+1641512929923,712,inf,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,4410,1249,2,2,null,0,1,0
+1641512929923,712,inf-92,200,,Thread Group 1-1,text,true,,4410,1249,2,2,https://petstore.octoperf.com/actions/Order.action,712,0,0
+1641512930636,397,conform,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,5107,617,2,2,null,0,1,0
+1641512930636,397,conform-93,200,,Thread Group 1-1,text,true,,5107,617,2,2,https://petstore.octoperf.com/actions/Order.action?newOrder=&confirmed=true,396,0,0
+1641512930398,687,login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,5115,1736,2,2,null,0,2,0
+1641512930399,687,login-81,200,,Thread Group 1-2,text,true,,5115,1736,2,2,https://petstore.octoperf.com/actions/Catalog.action,176,0,0
+1641512931035,198,returnpage,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,7019,619,2,2,null,0,1,0
+1641512931035,198,returnpage-94,200,,Thread Group 1-1,text,true,,4897,619,2,2,https://petstore.octoperf.com/actions/Catalog.action,198,0,0
+1641512931234,0,Debug Sampler,200,OK,Thread Group 1-1,text,true,,2122,0,2,2,null,0,0,0
+1641512931235,9,BeanShell Sampler,500,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``FileWriter f = new FileWriter(""C:/Users/sanka/aswani/jmteroutput/jan6.txt"",true) . . . '' Token Parsing Error: Lexical error at line 10, column 1.  Encountered: ""\u200b"" (8203), after : """"",Thread Group 1-1,text,false,,0,0,2,2,null,0,0,0
+1641512931087,187,selectcats,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,3819,626,1,1,null,0,1,0
+1641512931088,187,selectcats-83,200,,Thread Group 1-2,text,true,,3819,626,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=FISH,187,0,0
+1641512931276,181,selectproduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,3984,658,1,1,null,0,1,0
+1641512931276,181,selectproduct-88,200,,Thread Group 1-2,text,true,,3984,658,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=FI-FW-01,181,0,0
+1641512931458,181,addcart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,4554,660,1,1,null,0,0,0
+1641512931458,181,addcart-89,200,,Thread Group 1-2,text,true,,4554,660,1,1,https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-4,181,0,0
+1641512931639,516,proceed checkout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,5296,640,1,1,null,0,2,0
+1641512931640,516,proceed checkout-90,200,,Thread Group 1-2,text,true,,5296,640,1,1,https://petstore.octoperf.com/actions/Order.action?newOrderForm=,515,0,0
+1641512932158,903,inf,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,4410,1249,1,1,null,0,1,0
+1641512932158,903,inf-92,200,,Thread Group 1-2,text,true,,4410,1249,1,1,https://petstore.octoperf.com/actions/Order.action,600,0,0
+1641512933062,821,conform,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,5102,617,1,1,null,0,2,0
+1641512933063,821,conform-93,200,,Thread Group 1-2,text,true,,5102,617,1,1,https://petstore.octoperf.com/actions/Order.action?newOrder=&confirmed=true,821,0,0
+1641512933887,550,returnpage,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,7013,619,1,1,null,0,3,0
+1641512933887,550,returnpage-94,200,,Thread Group 1-2,text,true,,4897,619,1,1,https://petstore.octoperf.com/actions/Catalog.action,550,0,0
+1641512934440,0,Debug Sampler,200,OK,Thread Group 1-2,text,true,,2116,0,1,1,null,0,0,0
+1641512934441,12,BeanShell Sampler,500,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``FileWriter f = new FileWriter(""C:/Users/sanka/aswani/jmteroutput/jan6.txt"",true) . . . '' Token Parsing Error: Lexical error at line 10, column 1.  Encountered: ""\u200b"" (8203), after : """"",Thread Group 1-2,text,false,,0,0,1,1,null,0,0,0
+1641512934453,290,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,739,349,1,1,null,0,1,0
+1641512934454,290,launch-73,200,OK,Thread Group 1-2,text,true,,739,349,1,1,https://www.google.com/complete/search?client=firefox&q=pe,290,0,0
+1641512934744,510,enetrestore,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,4897,574,1,1,null,0,1,0
+1641512934745,510,enetrestore-78,200,,Thread Group 1-2,text,true,,4897,574,1,1,https://petstore.octoperf.com/actions/Catalog.action,273,0,0
+1641512935255,1740,login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,4000,652,1,1,null,0,2,0
+1641512935256,1740,login-80,200,,Thread Group 1-2,text,true,,4000,652,1,1,https://petstore.octoperf.com/actions/Account.action;jsessionid=093BF6ECE782426BE2311319BA53DCC3?signonForm=,1740,0,0
+1641512936997,819,login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,5115,1736,1,1,null,0,1,0
+1641512936998,819,login-81,200,,Thread Group 1-2,text,true,,5115,1736,1,1,https://petstore.octoperf.com/actions/Catalog.action,369,0,0
+1641512938226,385,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,723,349,2,2,null,0,3,277
+1641512938228,385,launch-73,200,OK,Thread Group 1-3,text,true,,723,349,2,2,https://www.google.com/complete/search?client=firefox&q=pe,385,0,277
+1641512937817,804,selectcats,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,3559,630,2,2,null,0,2,0
+1641512937818,804,selectcats-83,200,,Thread Group 1-2,text,true,,3559,630,2,2,https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=REPTILES,804,0,0
+1641512938622,625,selectproduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,4026,662,2,2,null,0,1,0
+1641512938623,625,selectproduct-88,200,,Thread Group 1-2,text,true,,4026,662,2,2,https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=RP-SN-01,625,0,0
+1641512939249,614,addcart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,4569,661,2,2,null,0,1,0
+1641512939249,614,addcart-89,200,,Thread Group 1-2,text,true,,4569,661,2,2,https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-12,614,0,0
+1641512938613,1250,enetrestore,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,5419,521,2,2,null,0,3,1008
+1641512938615,1250,enetrestore-78,200,,Thread Group 1-3,text,true,,5419,521,2,2,https://petstore.octoperf.com/actions/Catalog.action,1249,0,1008
+1641512939866,478,login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,3847,652,2,2,null,0,4,0
+1641512939867,478,login-80,200,,Thread Group 1-3,text,true,,3847,652,2,2,https://petstore.octoperf.com/actions/Account.action;jsessionid=093BF6ECE782426BE2311319BA53DCC3?signonForm=,478,0,0
+1641512939864,482,proceed checkout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,5296,641,2,2,null,0,2,0
+1641512939864,482,proceed checkout-90,200,,Thread Group 1-2,text,true,,5296,641,2,2,https://petstore.octoperf.com/actions/Order.action?newOrderForm=,481,0,0
+1641512940348,194,inf,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,4410,1189,2,2,null,0,1,0
+1641512940349,194,inf-92,200,,Thread Group 1-2,text,true,,4410,1189,2,2,https://petstore.octoperf.com/actions/Order.action,193,0,0
+1641512940348,704,login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,5115,1736,2,2,null,0,1,0
+1641512940349,704,login-81,200,,Thread Group 1-3,text,true,,5115,1736,2,2,https://petstore.octoperf.com/actions/Catalog.action,193,0,0
+1641512940543,509,conform,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,5115,617,2,2,null,0,1,0
+1641512940544,509,conform-93,200,,Thread Group 1-2,text,true,,5115,617,2,2,https://petstore.octoperf.com/actions/Order.action?newOrder=&confirmed=true,508,0,0
+1641512941053,206,returnpage,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,6860,619,2,2,null,0,1,0
+1641512941054,205,returnpage-94,200,,Thread Group 1-2,text,true,,4897,619,2,2,https://petstore.octoperf.com/actions/Catalog.action,205,0,0
+1641512941259,1,Debug Sampler,200,OK,Thread Group 1-2,text,true,,1963,0,2,2,null,0,0,0
+1641512941053,206,selectcats,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,4103,626,2,2,null,0,2,0
+1641512941054,206,selectcats-83,200,,Thread Group 1-3,text,true,,4103,626,2,2,https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=DOGS,205,0,0
+1641512941260,12,BeanShell Sampler,500,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``FileWriter f = new FileWriter(""C:/Users/sanka/aswani/jmteroutput/jan6.txt"",true) . . . '' Token Parsing Error: Lexical error at line 10, column 1.  Encountered: ""\u200b"" (8203), after : """"",Thread Group 1-2,text,false,,0,0,2,2,null,0,0,0
+1641512941261,241,selectproduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,4658,658,1,1,null,0,1,0
+1641512941261,241,selectproduct-88,200,,Thread Group 1-3,text,true,,4658,658,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=K9-RT-02,241,0,0
+1641512941503,365,addcart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,4579,661,1,1,null,0,1,0
+1641512941504,365,addcart-89,200,,Thread Group 1-3,text,true,,4579,661,1,1,https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-22,365,0,0
+1641512941870,219,proceed checkout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,5296,641,1,1,null,0,1,0
+1641512941870,219,proceed checkout-90,200,,Thread Group 1-3,text,true,,5296,641,1,1,https://petstore.octoperf.com/actions/Order.action?newOrderForm=,219,0,0
+1641512942090,617,inf,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,4410,1189,1,1,null,0,1,0
+1641512942091,617,inf-92,200,,Thread Group 1-3,text,true,,4410,1189,1,1,https://petstore.octoperf.com/actions/Order.action,616,0,0
+1641512942708,185,conform,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,5125,617,1,1,null,0,2,0
+1641512942709,185,conform-93,200,,Thread Group 1-3,text,true,,5125,617,1,1,https://petstore.octoperf.com/actions/Order.action?newOrder=&confirmed=true,185,0,0
+1641512942895,177,returnpage,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,6848,619,1,1,null,0,0,0
+1641512942895,177,returnpage-94,200,,Thread Group 1-3,text,true,,4897,619,1,1,https://petstore.octoperf.com/actions/Catalog.action,176,0,0
+1641512943072,0,Debug Sampler,200,OK,Thread Group 1-3,text,true,,1951,0,1,1,null,0,0,0
+1641512943073,9,BeanShell Sampler,500,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``FileWriter f = new FileWriter(""C:/Users/sanka/aswani/jmteroutput/jan6.txt"",true) . . . '' Token Parsing Error: Lexical error at line 10, column 1.  Encountered: ""\u200b"" (8203), after : """"",Thread Group 1-3,text,false,,0,0,1,1,null,0,0,0
+1641512943082,86,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,723,349,1,1,null,0,1,0
+1641512943083,86,launch-73,200,OK,Thread Group 1-3,text,true,,723,349,1,1,https://www.google.com/complete/search?client=firefox&q=pe,86,0,0
+1641512943169,175,enetrestore,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,4897,574,1,1,null,0,1,0
+1641512943169,175,enetrestore-78,200,,Thread Group 1-3,text,true,,4897,574,1,1,https://petstore.octoperf.com/actions/Catalog.action,175,0,0
+1641512943345,179,login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,3998,652,1,1,null,0,2,0
+1641512943346,179,login-80,200,,Thread Group 1-3,text,true,,3998,652,1,1,https://petstore.octoperf.com/actions/Account.action;jsessionid=093BF6ECE782426BE2311319BA53DCC3?signonForm=,179,0,0
+1641512943526,712,login,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,5115,1736,1,1,null,0,1,0
+1641512943526,712,login-81,200,,Thread Group 1-3,text,true,,5115,1736,1,1,https://petstore.octoperf.com/actions/Catalog.action,187,0,0
+1641512944239,847,selectcats,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,3559,630,1,1,null,0,0,0
+1641512944239,847,selectcats-83,200,,Thread Group 1-3,text,true,,3559,630,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=REPTILES,846,0,0
+1641512945087,700,selectproduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,3720,662,1,1,null,0,1,0
+1641512945087,700,selectproduct-88,200,,Thread Group 1-3,text,true,,3720,662,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=RP-LI-02,700,0,0
+1641512945788,692,addcart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,4565,661,1,1,null,0,0,0
+1641512945788,692,addcart-89,200,,Thread Group 1-3,text,true,,4565,661,1,1,https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-13,691,0,0
+1641512946480,207,proceed checkout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,5296,641,1,1,null,0,1,0
+1641512946480,207,proceed checkout-90,200,,Thread Group 1-3,text,true,,5296,641,1,1,https://petstore.octoperf.com/actions/Order.action?newOrderForm=,207,0,0
+1641512946688,303,inf,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,4410,1189,1,1,null,0,1,0
+1641512946689,303,inf-92,200,,Thread Group 1-3,text,true,,4410,1189,1,1,https://petstore.octoperf.com/actions/Order.action,303,0,0
+1641512946993,408,conform,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,5111,617,1,1,null,0,1,0
+1641512946993,408,conform-93,200,,Thread Group 1-3,text,true,,5111,617,1,1,https://petstore.octoperf.com/actions/Order.action?newOrder=&confirmed=true,408,0,0
+1641512947402,513,returnpage,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,6860,619,1,1,null,0,0,0
+1641512947402,512,returnpage-94,200,,Thread Group 1-3,text,true,,4897,619,1,1,https://petstore.octoperf.com/actions/Catalog.action,512,0,0
+1641512947914,1,Debug Sampler,200,OK,Thread Group 1-3,text,true,,1963,0,1,1,null,0,0,0
+1641512947915,4,BeanShell Sampler,500,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``FileWriter f = new FileWriter(""C:/Users/sanka/aswani/jmteroutput/jan6.txt"",true) . . . '' Token Parsing Error: Lexical error at line 10, column 1.  Encountered: ""\u200b"" (8203), after : """"",Thread Group 1-3,text,false,,0,0,1,1,null,0,0,0

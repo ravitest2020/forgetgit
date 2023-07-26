@@ -1,0 +1,450 @@
+2023-07-17 15:35:17,785 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2023-07-17 15:35:17,816 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2023-07-17 15:35:17,816 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2023-07-17 15:35:17,832 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2023-07-17 15:35:17,832 INFO o.a.j.JMeter: Version 5.4.1
+2023-07-17 15:35:17,832 INFO o.a.j.JMeter: java.version=11.0.13
+2023-07-17 15:35:17,832 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2023-07-17 15:35:17,832 INFO o.a.j.JMeter: os.name=Windows 10
+2023-07-17 15:35:17,832 INFO o.a.j.JMeter: os.arch=amd64
+2023-07-17 15:35:17,832 INFO o.a.j.JMeter: os.version=10.0
+2023-07-17 15:35:17,832 INFO o.a.j.JMeter: file.encoding=Cp1252
+2023-07-17 15:35:17,832 INFO o.a.j.JMeter: java.awt.headless=null
+2023-07-17 15:35:17,832 INFO o.a.j.JMeter: Max memory     =1073741824
+2023-07-17 15:35:17,832 INFO o.a.j.JMeter: Available Processors =8
+2023-07-17 15:35:17,832 INFO o.a.j.JMeter: Default Locale=English (EN)
+2023-07-17 15:35:17,832 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2023-07-17 15:35:17,832 INFO o.a.j.JMeter: JMeterHome=C:\Users\sanka\Downloads\apache-jmeter-5.4.1\apache-jmeter-5.4.1
+2023-07-17 15:35:17,832 INFO o.a.j.JMeter: user.dir  =C:\Users\sanka\Downloads\apache-jmeter-5.4.1\apache-jmeter-5.4.1\bin
+2023-07-17 15:35:17,848 INFO o.a.j.JMeter: PWD       =C:\Users\sanka\Downloads\apache-jmeter-5.4.1\apache-jmeter-5.4.1\bin
+2023-07-17 15:35:17,848 INFO o.a.j.JMeter: IP: 192.168.86.248 Name: DESKTOP-TH2QNLV FullName: DESKTOP-TH2QNLV.lan
+2023-07-17 15:35:18,062 INFO o.a.j.JMeter: Setting LAF to: laf:com.sun.java.swing.plaf.windows.WindowsLookAndFeel
+2023-07-17 15:35:18,243 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2023-07-17 15:35:21,706 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=windows_10-e1a51fea261c4aa7a520520db881fe0c-gui
+2023-07-17 15:35:22,793 INFO k.a.j.JMeterPluginsUtils: JMeter-Plugins.org v.1.4.0
+2023-07-17 15:35:23,013 WARN o.a.j.g.u.MenuFactory: Could not instantiate class: kg.apc.jmeter.reporters.LoadosophiaUploaderGui
+java.lang.reflect.InvocationTargetException: null
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[?:?]
+	at org.apache.jmeter.gui.util.MenuFactory.getGUIComponent(MenuFactory.java:207) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.gui.util.MenuFactory.initializeMenus(MenuFactory.java:151) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.gui.util.MenuFactory.<clinit>(MenuFactory.java:107) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.gui.TestPlanGui.createPopupMenu(TestPlanGui.java:94) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.gui.tree.JMeterTreeNode.createPopupMenu(JMeterTreeNode.java:184) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.gui.action.EditCommand.doAction(EditCommand.java:46) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:87) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:69) ~[ApacheJMeter_core.jar:5.4.1]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:721) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:715) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:740) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:117) ~[?:?]
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:190) ~[?:?]
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235) ~[?:?]
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233) ~[?:?]
+	at java.awt.Dialog.show(Dialog.java:1070) ~[?:?]
+	at java.awt.Component.show(Component.java:1716) ~[?:?]
+	at java.awt.Component.setVisible(Component.java:1663) ~[?:?]
+	at java.awt.Window.setVisible(Window.java:1031) ~[?:?]
+	at java.awt.Dialog.setVisible(Dialog.java:1005) ~[?:?]
+	at org.apache.jmeter.SplashScreen.lambda$showScreen$0(SplashScreen.java:95) ~[ApacheJMeter_core.jar:5.4.1]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313) [?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770) [?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:721) [?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:715) [?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:740) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+Caused by: java.lang.NoClassDefFoundError: org/apache/commons/httpclient/methods/multipart/PartSource
+	at kg.apc.jmeter.reporters.LoadosophiaUploaderGui.init(LoadosophiaUploaderGui.java:114) ~[JMeterPlugins-Standard.jar:?]
+	at kg.apc.jmeter.reporters.LoadosophiaUploaderGui.<init>(LoadosophiaUploaderGui.java:28) ~[JMeterPlugins-Standard.jar:?]
+	... 46 more
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.httpclient.methods.multipart.PartSource
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:476) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:589) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:522) ~[?:?]
+	at kg.apc.jmeter.reporters.LoadosophiaUploaderGui.init(LoadosophiaUploaderGui.java:114) ~[JMeterPlugins-Standard.jar:?]
+	at kg.apc.jmeter.reporters.LoadosophiaUploaderGui.<init>(LoadosophiaUploaderGui.java:28) ~[JMeterPlugins-Standard.jar:?]
+	... 46 more
+2023-07-17 15:35:23,422 WARN o.j.r.Plugin: Unable to load class: kg.apc.cmdtools.ReporterTool
+java.lang.NoClassDefFoundError: kg/apc/cmdtools/AbstractCMDTool
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1017) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174) ~[?:?]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:555) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:458) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:452) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:451) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:589) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:522) ~[?:?]
+	at org.jmeterplugins.repository.Plugin.getJARPath(Plugin.java:202) [jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.Plugin.detectInstalledPlugin(Plugin.java:108) [jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.Plugin.detectInstalled(Plugin.java:97) [jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.PluginManager.load(PluginManager.java:86) [jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.PluginManagerMenuItem$1.run(PluginManagerMenuItem.java:38) [jmeter-plugins-manager-1.7.jar:?]
+Caused by: java.lang.ClassNotFoundException: kg.apc.cmdtools.AbstractCMDTool
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:476) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:589) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:522) ~[?:?]
+	... 15 more
+2023-07-17 15:35:23,438 WARN o.j.r.Plugin: Unable to load class: kg.apc.cmdtools.FilterResultsTool
+java.lang.NoClassDefFoundError: kg/apc/cmdtools/AbstractCMDTool
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1017) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174) ~[?:?]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:555) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:458) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:452) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:451) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:589) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:522) ~[?:?]
+	at org.jmeterplugins.repository.Plugin.getJARPath(Plugin.java:202) [jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.Plugin.detectInstalledPlugin(Plugin.java:108) [jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.Plugin.detectInstalled(Plugin.java:97) [jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.PluginManager.load(PluginManager.java:86) [jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.PluginManagerMenuItem$1.run(PluginManagerMenuItem.java:38) [jmeter-plugins-manager-1.7.jar:?]
+Caused by: java.lang.ClassNotFoundException: kg.apc.cmdtools.AbstractCMDTool
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:476) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:589) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:522) ~[?:?]
+	... 15 more
+2023-07-17 15:35:23,438 WARN o.j.r.Plugin: Unable to load class: kg.apc.cmdtools.TestPlanCheckTool
+java.lang.NoClassDefFoundError: kg/apc/cmdtools/AbstractCMDTool
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1017) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174) ~[?:?]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:555) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:458) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:452) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:451) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:589) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:522) ~[?:?]
+	at org.jmeterplugins.repository.Plugin.getJARPath(Plugin.java:202) [jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.Plugin.detectInstalledPlugin(Plugin.java:108) [jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.Plugin.detectInstalled(Plugin.java:97) [jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.PluginManager.load(PluginManager.java:86) [jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.PluginManagerMenuItem$1.run(PluginManagerMenuItem.java:38) [jmeter-plugins-manager-1.7.jar:?]
+Caused by: java.lang.ClassNotFoundException: kg.apc.cmdtools.AbstractCMDTool
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:476) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:589) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:522) ~[?:?]
+	... 15 more
+2023-07-17 15:35:23,438 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-basic=Standard, jpgc-graphs-additional=Extras, jpgc-autostop=Extras, jpgc-sense=Standard, jpgc-graphs-composite=Standard, jpgc-csl=Standard, jpgc-functions=Standard, jpgc-casutg=Standard, jpgc-dbmon=Extras, jpgc-graphs-dist=Extras, jpgc-dummy=Standard, jpgc-ffw=Standard, jpgc-ggl=Extras, jpgc-httpraw=Extras, jpgc-sts=Extras, jpgc-fifo=Standard, jpgc-jmxmon=Extras, jpgc-graphs-vs=Extras, jpgc-lockfile=Extras, jpgc-mergeresults=Standard, jpgc-pde=Extras, jpgc-prmctl=Extras, jpgc-perfmon=Standard, jpgc-plugins-manager=1.7, jmeter-prometheus=0.6.0, jpgc-synthesis=Standard, jpgc-tst=Standard, jpgc-udp=Extras, jpgc-csvars=Extras, jpgc-wsc=Standard, jpgc-xml=Extras, jmeter-core=5.4.1, jmeter-ftp=5.4.1, jmeter-http=5.4.1, jmeter-jdbc=5.4.1, jmeter-jms=5.4.1, jmeter-junit=5.4.1, jmeter-java=5.4.1, jmeter-ldap=5.4.1, jmeter-mail=5.4.1, jmeter-mongodb=5.4.1, jmeter-native=5.4.1, jmeter-tcp=5.4.1, jmeter-components=5.4.1, jpgc-standard=2.0]
+2023-07-17 15:35:23,438 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-plugins-manager]
+2023-07-17 15:35:59,505 INFO o.a.j.s.FileServer: Default base='C:\Users\sanka\Downloads\apache-jmeter-5.4.1\apache-jmeter-5.4.1\bin'
+2023-07-17 15:35:59,505 INFO o.a.j.g.a.Load: Loading file: C:\Users\sanka\aswani\2023SCRIPT\jpet07132023.jmx
+2023-07-17 15:35:59,505 INFO o.a.j.s.FileServer: Set new base='C:\Users\sanka\aswani\2023SCRIPT'
+2023-07-17 15:35:59,742 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-07-17 15:35:59,765 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-07-17 15:35:59,765 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-07-17 15:35:59,765 INFO o.a.j.s.SaveService: Loading file: C:\Users\sanka\aswani\2023SCRIPT\jpet07132023.jmx
+2023-07-17 15:35:59,966 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2023-07-17 15:35:59,978 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-07-17 15:35:59,978 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-07-17 15:35:59,978 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-07-17 15:35:59,978 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-07-17 15:35:59,978 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-07-17 15:35:59,978 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-07-17 15:36:00,292 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2023-07-17 15:36:00,292 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file C:\Users\sanka\Downloads\apache-jmeter-5.4.1\apache-jmeter-5.4.1\bin\proxyserver.jks
+2023-07-17 15:36:00,623 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-07-17 15:36:00,623 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2023-07-17 15:36:00,623 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-07-17 15:36:00,623 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-07-17 15:36:00,875 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-07-17 15:36:01,001 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-07-17 15:36:01,056 INFO o.a.j.s.FileServer: Set new base='C:\Users\sanka\aswani\2023SCRIPT'
+2023-07-17 15:36:29,004 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-07-17 15:36:29,006 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-07-17 15:36:29,006 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-07-17 15:36:29,009 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2023-07-17 15:36:29,009 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2023-07-17 15:36:29,418 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-07-17 15:36:29,465 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-07-17 15:36:29,465 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-07-17 15:36:29,465 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-07-17 15:36:29,465 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-07-17 15:36:29,465 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-07-17 15:36:29,481 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-07-17 15:36:29,481 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2023-07-17 15:36:29,497 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-TH2QNLV
+2023-07-17 15:36:29,497 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2023-07-17 15:36:29,624 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2023-07-17 15:36:29,624 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2023-07-17 15:36:29,624 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2023-07-17 15:36:29,922 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2023-07-17 15:36:29,922 INFO o.a.j.u.SSLManager: KeyStore created OK
+2023-07-17 15:36:29,922 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2023-07-17 15:36:31,378 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2023-07-17 15:36:31,378 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2023-07-17 15:36:31,378 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-07-17 15:36:31,378 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-07-18 12:35:55,646 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-07-18 12:35:55,646 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-07-18 12:35:55,661 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-07-18 12:35:55,740 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-07-18 12:35:55,740 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-07-18 12:35:55,740 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-07-18 12:35:55,740 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-07-18 12:35:55,740 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-07-18 12:35:55,740 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-07-18 12:35:55,740 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2023-07-18 12:35:57,248 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2023-07-18 12:35:57,248 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2023-07-18 12:35:57,248 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-07-18 12:35:57,248 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-07-18 12:36:47,739 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-07-18 12:36:47,739 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-07-18 12:36:47,739 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-07-18 12:36:47,817 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-07-18 12:36:47,817 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-07-18 12:36:47,817 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-07-18 12:36:47,817 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-07-18 12:36:47,817 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-07-18 12:36:47,817 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-07-18 12:36:47,817 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2023-07-18 12:36:49,297 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2023-07-18 12:36:49,297 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2023-07-18 12:36:49,297 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-07-18 12:36:49,297 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-07-18 12:37:14,848 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-07-18 12:37:14,876 INFO o.a.j.g.a.Load: Loading file: C:\Users\sanka\aswani\2023SCRIPT\fullscript.jmx
+2023-07-18 12:37:14,876 INFO o.a.j.s.FileServer: Set new base='C:\Users\sanka\aswani\2023SCRIPT'
+2023-07-18 12:37:14,876 INFO o.a.j.s.SaveService: Loading file: C:\Users\sanka\aswani\2023SCRIPT\fullscript.jmx
+2023-07-18 12:37:15,128 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-07-18 12:37:15,192 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-07-18 12:37:15,207 INFO o.a.j.s.FileServer: Set new base='C:\Users\sanka\aswani\2023SCRIPT'
+2023-07-18 12:37:35,106 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-07-18 12:37:35,106 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-07-18 12:37:35,153 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-07-18 12:37:35,201 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-07-18 12:37:35,201 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-07-18 12:37:35,201 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-07-18 12:37:35,201 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-07-18 12:37:35,201 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-07-18 12:37:35,201 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-07-18 12:37:35,201 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2023-07-18 12:37:41,835 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2023-07-18 12:37:41,835 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2023-07-18 12:37:41,835 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-07-18 12:37:41,835 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-07-18 12:39:30,651 INFO o.a.j.g.a.Load: Loading file: C:\Users\sanka\aswani\2023SCRIPT\jpet07132023.jmx
+2023-07-18 12:39:30,651 INFO o.a.j.s.FileServer: Set new base='C:\Users\sanka\aswani\2023SCRIPT'
+2023-07-18 12:39:30,651 INFO o.a.j.s.SaveService: Loading file: C:\Users\sanka\aswani\2023SCRIPT\jpet07132023.jmx
+2023-07-18 12:39:30,711 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-07-18 12:39:30,774 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-07-18 12:39:30,789 INFO o.a.j.s.FileServer: Set new base='C:\Users\sanka\aswani\2023SCRIPT'
+2023-07-18 12:45:20,610 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
+2023-07-18 12:45:20,610 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
+2023-07-18 12:45:20,610 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8888
+2023-07-18 12:45:20,610 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
+2023-07-18 12:45:20,720 INFO o.a.j.p.h.p.Proxy: Proxy will remove the headers: If-Modified-Since,If-None-Match,Host
+2023-07-18 12:45:20,720 INFO o.a.j.p.h.p.ProxyControl: [54483]  Creating entry aus5.mozilla.org in C:\Users\sanka\Downloads\apache-jmeter-5.4.1\apache-jmeter-5.4.1\bin\proxyserver.jks
+2023-07-18 12:45:23,556 INFO o.a.j.p.h.p.ProxyControl: [54484]  Creating entry content-signature-2.cdn.mozilla.net in C:\Users\sanka\Downloads\apache-jmeter-5.4.1\apache-jmeter-5.4.1\bin\proxyserver.jks
+2023-07-18 12:45:23,604 INFO o.a.j.p.h.p.Proxy: [54483]  KeyStore for SSL loaded OK and put host 'aus5.mozilla.org' in map with key (aus5.mozilla.org)
+2023-07-18 12:45:23,887 INFO o.a.j.p.h.p.ProxyControl: Add sample RETURN_PAGE-1 into controller RETURN_PAGE
+2023-07-18 12:45:26,289 INFO o.a.j.p.h.p.Proxy: [54484]  KeyStore for SSL loaded OK and put host 'content-signature-2.cdn.mozilla.net' in map with key (content-signature-2.cdn.mozilla.net)
+2023-07-18 12:45:26,548 INFO o.a.j.p.h.p.ProxyControl: Add sample RETURN_PAGE-4 into controller L
+2023-07-18 12:45:26,548 INFO o.a.j.p.h.p.ProxyControl: Add sample RETURN_PAGE-2 into controller L
+2023-07-18 12:45:26,548 INFO o.a.j.p.h.p.ProxyControl: Add sample RETURN_PAGE-3 into controller L
+2023-07-18 12:45:26,548 INFO o.a.j.p.h.p.ProxyControl: Add sample L-5 into controller L
+2023-07-18 12:45:26,548 INFO o.a.j.p.h.p.ProxyControl: Add sample L-6 into controller L
+2023-07-18 12:45:34,878 INFO o.a.j.p.h.p.ProxyControl: [54498]  Creating entry www.blazedemo.com in C:\Users\sanka\Downloads\apache-jmeter-5.4.1\apache-jmeter-5.4.1\bin\proxyserver.jks
+2023-07-18 12:45:37,626 INFO o.a.j.p.h.p.Proxy: [54498]  KeyStore for SSL loaded OK and put host 'www.blazedemo.com' in map with key (www.blazedemo.com)
+2023-07-18 12:45:37,995 WARN o.a.j.p.h.p.Proxy: [54500]  Problem with SSL certificate for url  for 'www.blazedemo.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: recv failed
+2023-07-18 12:45:38,017 INFO o.a.j.p.h.p.ProxyControl: [54504]  Creating entry blazemeter.trackinglibrary.prodperfect.com in C:\Users\sanka\Downloads\apache-jmeter-5.4.1\apache-jmeter-5.4.1\bin\proxyserver.jks
+2023-07-18 12:45:38,021 INFO o.a.j.p.h.p.ProxyControl: Add sample L-7 into controller L
+2023-07-18 12:45:41,123 INFO o.a.j.p.h.p.ProxyControl: [54505]  Creating entry blazemeter.datapipe.prodperfect.com in C:\Users\sanka\Downloads\apache-jmeter-5.4.1\apache-jmeter-5.4.1\bin\proxyserver.jks
+2023-07-18 12:45:41,184 INFO o.a.j.p.h.p.Proxy: [54504]  KeyStore for SSL loaded OK and put host 'blazemeter.trackinglibrary.prodperfect.com' in map with key (blazemeter.trackinglibrary.prodperfect.com)
+2023-07-18 12:45:41,197 WARN o.a.j.p.h.p.Proxy: [54504]  Problem with SSL certificate for url  for 'blazemeter.trackinglibrary.prodperfect.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2023-07-18 12:45:44,125 INFO o.a.j.p.h.p.Proxy: [54505]  KeyStore for SSL loaded OK and put host 'blazemeter.datapipe.prodperfect.com' in map with key (blazemeter.datapipe.prodperfect.com)
+2023-07-18 12:45:44,642 INFO o.a.j.p.h.p.ProxyControl: Add sample L-11 into controller CH
+2023-07-18 12:45:46,298 INFO o.a.j.p.h.p.ProxyControl: Add sample CH-12 into controller CH
+2023-07-18 12:45:47,310 INFO o.a.j.p.h.p.ProxyControl: Add sample CH-14 into controller CH
+2023-07-18 12:45:47,313 INFO o.a.j.p.h.p.ProxyControl: Add sample CH-13 into controller CH
+2023-07-18 12:45:48,332 INFO o.a.j.p.h.p.ProxyControl: Add sample CH-15 into controller CH
+2023-07-18 12:45:49,353 INFO o.a.j.p.h.p.ProxyControl: Add sample CH-17 into controller CH
+2023-07-18 12:45:49,358 INFO o.a.j.p.h.p.ProxyControl: Add sample CH-16 into controller CH
+2023-07-18 12:45:50,375 INFO o.a.j.p.h.p.ProxyControl: Add sample CH-18 into controller CH
+2023-07-18 12:45:50,378 INFO o.a.j.p.h.p.ProxyControl: Add sample CH-20 into controller CH
+2023-07-18 12:45:50,380 INFO o.a.j.p.h.p.ProxyControl: Add sample CH-21 into controller CH
+2023-07-18 12:45:50,382 INFO o.a.j.p.h.p.ProxyControl: Add sample CH-19 into controller CH
+2023-07-18 12:45:50,794 INFO o.a.j.p.h.p.ProxyControl: Add sample CH-22 into controller CH
+2023-07-18 12:46:00,802 INFO o.a.j.p.h.p.ProxyControl: Add sample SELECT-24 into controller SELECT
+2023-07-18 12:46:00,802 INFO o.a.j.p.h.p.ProxyControl: Add sample SELECT-25 into controller SELECT
+2023-07-18 12:46:00,802 INFO o.a.j.p.h.p.ProxyControl: Add sample SELECT-26 into controller SELECT
+2023-07-18 12:46:01,006 INFO o.a.j.p.h.p.ProxyControl: Add sample SELECT-23 into controller SELECT
+2023-07-18 12:46:01,211 INFO o.a.j.p.h.p.ProxyControl: Add sample SELECT-27 into controller SELECT
+2023-07-18 12:46:06,332 INFO o.a.j.p.h.p.ProxyControl: Add sample IN-28 into controller IN
+2023-07-18 12:46:10,238 INFO o.a.j.p.h.p.ProxyControl: Add sample IN-29 into controller IN
+2023-07-18 12:46:15,344 INFO o.a.j.p.h.p.ProxyControl: Add sample IN-30 into controller IN
+2023-07-18 12:46:20,654 INFO o.a.j.p.h.p.ProxyControl: Add sample IN-31 into controller IN
+2023-07-18 12:46:24,938 INFO o.a.j.p.h.p.ProxyControl: Add sample IN-32 into controller IN
+2023-07-18 12:46:30,453 INFO o.a.j.p.h.p.ProxyControl: Add sample IN-33 into controller IN
+2023-07-18 12:46:34,536 INFO o.a.j.p.h.p.ProxyControl: Add sample IN-34 into controller IN
+2023-07-18 12:46:35,356 INFO o.a.j.p.h.p.ProxyControl: Add sample IN-35 into controller IN
+2023-07-18 12:46:35,356 INFO o.a.j.p.h.p.ProxyControl: Add sample IN-36 into controller IN
+2023-07-18 12:46:36,788 INFO o.a.j.p.h.p.ProxyControl: Add sample IN-37 into controller IN
+2023-07-18 12:46:40,873 INFO o.a.j.p.h.p.ProxyControl: Add sample IN-38 into controller IN
+2023-07-18 12:46:43,528 INFO o.a.j.p.h.p.ProxyControl: Add sample IN-39 into controller IN
+2023-07-18 12:46:50,469 INFO o.a.j.p.h.p.ProxyControl: Add sample IN-40 into controller IN
+2023-07-18 12:46:50,674 INFO o.a.j.p.h.p.ProxyControl: Add sample IN-43 into controller IN
+2023-07-18 12:46:50,674 INFO o.a.j.p.h.p.ProxyControl: Add sample IN-44 into controller IN
+2023-07-18 12:46:50,674 INFO o.a.j.p.h.p.ProxyControl: Add sample IN-41 into controller IN
+2023-07-18 12:46:50,674 INFO o.a.j.p.h.p.ProxyControl: Add sample IN-42 into controller IN
+2023-07-18 12:46:50,878 INFO o.a.j.p.h.p.ProxyControl: Add sample IN-45 into controller IN
+2023-07-18 12:46:57,603 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped
+2023-07-18 12:47:17,058 INFO o.a.j.g.a.t.TemplateManager: Reading templates from: C:\Users\sanka\Downloads\apache-jmeter-5.4.1\apache-jmeter-5.4.1\bin\templates\templates.xml
+2023-07-18 12:47:25,983 INFO o.a.j.g.a.Load: Loading file: C:\Users\sanka\AppData\Local\Temp\Recording13500611924265917744.output
+2023-07-18 12:47:25,983 INFO o.a.j.s.SaveService: Loading file: C:\Users\sanka\AppData\Local\Temp\Recording13500611924265917744.output
+2023-07-18 12:47:26,014 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-07-18 12:47:26,061 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-07-18 12:47:32,027 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
+2023-07-18 12:47:32,027 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
+2023-07-18 12:47:32,027 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8888
+2023-07-18 12:47:32,043 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
+2023-07-18 12:47:48,715 INFO o.a.j.p.h.p.Proxy: [54598]  KeyStore for SSL loaded OK and put host 'incoming.telemetry.mozilla.org' in map with key (incoming.telemetry.mozilla.org)
+2023-07-18 12:47:48,859 INFO o.a.j.p.h.p.Proxy: [54602]  KeyStore for SSL loaded OK and put host 'contile-images.services.mozilla.com' in map with key (contile-images.services.mozilla.com)
+2023-07-18 12:47:48,905 INFO o.a.j.p.h.p.Proxy: [54605]  KeyStore for SSL loaded OK and put host 'img-getpocket.cdn.mozilla.net' in map with key (img-getpocket.cdn.mozilla.net)
+2023-07-18 12:47:49,000 INFO o.a.j.p.h.p.ProxyControl: Add sample LA-46 into controller LA
+2023-07-18 12:47:49,063 INFO o.a.j.p.h.p.ProxyControl: Add sample LA-47 into controller LA
+2023-07-18 12:47:51,813 INFO o.a.j.p.h.p.Proxy: [54610]  KeyStore for SSL loaded OK and put host 'petstore.octoperf.com' in map with key (petstore.octoperf.com)
+2023-07-18 12:47:51,813 WARN o.a.j.p.h.p.Proxy: [54619]  Problem with SSL certificate for url  for 'petstore.octoperf.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: recv failed
+2023-07-18 12:47:51,813 WARN o.a.j.p.h.p.Proxy: [54610]  Problem with SSL certificate for url  for 'petstore.octoperf.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2023-07-18 12:47:52,065 INFO o.a.j.p.h.p.ProxyControl: Add sample LA-54 into controller LA
+2023-07-18 12:47:52,096 INFO o.a.j.p.h.p.ProxyControl: Add sample LA-52 into controller LA
+2023-07-18 12:47:52,112 INFO o.a.j.p.h.p.ProxyControl: Add sample LA-53 into controller LA
+2023-07-18 12:47:52,128 INFO o.a.j.p.h.p.ProxyControl: Add sample LA-55 into controller LA
+2023-07-18 12:47:58,402 INFO o.a.j.p.h.p.ProxyControl: Add sample EN-61 into controller EN
+2023-07-18 12:47:58,422 WARN o.a.j.p.h.p.Proxy: [54734]  Problem with SSL certificate for url  for 'petstore.octoperf.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2023-07-18 12:47:58,427 WARN o.a.j.p.h.p.Proxy: [54737]  Problem with SSL certificate for url  for 'petstore.octoperf.com'? Ensure browser is set to accept the JMeter proxy cert: Remote host terminated the handshake
+2023-07-18 12:47:58,427 WARN o.a.j.p.h.p.Proxy: [54735]  Problem with SSL certificate for url  for 'petstore.octoperf.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2023-07-18 12:47:58,429 WARN o.a.j.p.h.p.Proxy: [54738]  Problem with SSL certificate for url  for 'petstore.octoperf.com'? Ensure browser is set to accept the JMeter proxy cert: Remote host terminated the handshake
+2023-07-18 12:47:58,429 WARN o.a.j.p.h.p.Proxy: [54739]  Problem with SSL certificate for url  for 'petstore.octoperf.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2023-07-18 12:47:58,432 WARN o.a.j.p.h.p.Proxy: [54736]  Problem with SSL certificate for url  for 'petstore.octoperf.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2023-07-18 12:48:05,922 INFO o.a.j.p.h.p.ProxyControl: Add sample SIG-63 into controller SIG
+2023-07-18 12:48:17,360 INFO o.a.j.p.h.p.ProxyControl: Add sample SIGREGI-64 into controller SIGREGI
+2023-07-18 12:49:43,373 INFO o.a.j.p.h.p.ProxyControl: Add sample INF-65 into controller INF
+2023-07-18 12:49:43,389 INFO o.a.j.p.h.p.ProxyControl: Add sample INF-66 into controller INF
+2023-07-18 12:50:00,533 INFO o.a.j.p.h.p.ProxyControl: Add sample INF-67 into controller INF
+2023-07-18 12:50:01,146 INFO o.a.j.p.h.p.ProxyControl: Add sample INF-68 into controller INF
+2023-07-18 12:50:07,883 INFO o.a.j.p.h.p.ProxyControl: Add sample INF-69 into controller IN
+2023-07-18 12:50:08,086 INFO o.a.j.p.h.p.ProxyControl: Add sample IN-70 into controller I
+2023-07-18 12:50:14,213 INFO o.a.j.p.h.p.ProxyControl: Add sample SIGN-71 into controller SIGN
+2023-07-18 12:50:26,669 INFO o.a.j.p.h.p.ProxyControl: Add sample SIGN-72 into controller SIGN
+2023-07-18 12:50:27,283 INFO o.a.j.p.h.p.ProxyControl: Add sample SIGN-73 into controller SIGN
+2023-07-18 12:50:38,322 INFO o.a.j.p.h.p.ProxyControl: Add sample CATE-74 into controller CATE
+2023-07-18 12:50:46,697 INFO o.a.j.p.h.p.ProxyControl: Add sample PROD-75 into controller PROD
+2023-07-18 12:50:54,259 INFO o.a.j.p.h.p.ProxyControl: Add sample ITEM-76 into controller ITEM
+2023-07-18 12:51:02,425 INFO o.a.j.p.h.p.ProxyControl: Add sample ADD-78 into controller ADD
+2023-07-18 12:51:11,003 INFO o.a.j.p.h.p.ProxyControl: Add sample PROCEED-79 into controller PROCEED
+2023-07-18 12:51:18,768 INFO o.a.j.p.h.p.ProxyControl: Add sample CON-80 into controller CON
+2023-07-18 12:51:26,561 INFO o.a.j.p.h.p.ProxyControl: Add sample ORDER-81 into controller ORDER
+2023-07-18 12:51:37,217 INFO o.a.j.p.h.p.ProxyControl: Add sample SIGNOUT-82 into controller SIGNOUT
+2023-07-18 12:51:37,832 INFO o.a.j.p.h.p.ProxyControl: Add sample SIGNOUT-83 into controller SIGNOUT
+2023-07-18 12:51:39,657 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped
+2023-07-18 12:53:44,021 INFO o.a.j.s.FileServer: Set new base='C:\Users\sanka\aswani\2023SCRIPT'
+2023-07-18 12:58:11,319 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-07-18 12:58:11,319 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-07-18 12:58:11,319 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-07-18 12:58:11,413 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-07-18 12:58:11,413 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-07-18 12:58:11,413 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-07-18 12:58:11,413 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-07-18 12:58:11,413 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-07-18 12:58:11,413 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-07-18 12:58:11,413 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2023-07-18 12:58:15,509 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2023-07-18 12:58:15,509 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2023-07-18 12:58:15,509 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-07-18 12:58:15,509 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-07-18 13:06:37,336 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-07-18 13:06:37,336 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-07-18 13:06:37,336 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-07-18 13:06:37,415 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-07-18 13:06:37,415 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-07-18 13:06:37,415 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-07-18 13:06:37,415 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-07-18 13:06:37,415 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-07-18 13:06:37,415 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-07-18 13:06:37,415 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2023-07-18 13:06:38,359 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2023-07-18 13:06:38,359 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2023-07-18 13:06:38,359 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-07-18 13:06:38,359 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-07-18 13:34:39,920 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-07-18 13:34:39,920 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-07-18 13:34:39,920 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-07-18 13:34:39,984 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-07-18 13:34:39,984 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-07-18 13:34:39,984 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-07-18 13:34:39,984 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-07-18 13:34:39,984 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-07-18 13:34:39,984 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-07-18 13:34:39,984 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2023-07-18 13:34:41,350 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2023-07-18 13:34:41,350 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2023-07-18 13:34:41,350 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-07-18 13:34:41,365 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-07-18 13:35:59,794 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-07-18 13:35:59,794 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-07-18 13:35:59,794 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-07-18 13:35:59,856 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-07-18 13:35:59,856 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-07-18 13:35:59,856 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-07-18 13:35:59,856 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-07-18 13:35:59,856 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-07-18 13:35:59,856 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-07-18 13:35:59,856 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2023-07-18 13:36:01,160 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2023-07-18 13:36:01,160 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2023-07-18 13:36:01,160 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-07-18 13:36:01,175 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-07-18 13:36:53,468 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-07-18 13:36:53,468 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-07-18 13:36:53,468 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-07-18 13:36:53,468 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-07-18 13:36:53,468 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-07-18 13:36:53,468 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-07-18 13:36:53,468 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-07-18 13:36:53,468 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-07-18 13:36:53,468 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-07-18 13:36:53,468 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2023-07-18 13:36:56,500 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2023-07-18 13:36:56,500 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2023-07-18 13:36:56,500 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-07-18 13:36:56,500 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-07-18 13:45:48,303 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-07-18 13:45:48,303 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-07-18 13:45:48,303 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-07-18 13:45:48,365 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-07-18 13:45:48,365 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-07-18 13:45:48,365 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-07-18 13:45:48,365 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-07-18 13:45:48,369 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-07-18 13:45:48,369 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-07-18 13:45:48,369 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2023-07-18 13:45:48,369 INFO o.a.j.s.FileServer: Stored: C:/Users/sanka/Desktop/scripting/FNAME.txt
+2023-07-18 13:45:49,683 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2023-07-18 13:45:49,683 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2023-07-18 13:45:49,683 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-07-18 13:45:49,683 INFO o.a.j.s.FileServer: Close: C:/Users/sanka/Desktop/scripting/FNAME.txt
+2023-07-18 13:45:49,683 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)

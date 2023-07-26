@@ -1,0 +1,46 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,failureMessage,bytes,grpThreads,allThreads,Latency,SampleCount,ErrorCount,Hostname
+1640480486242,1717,enterstore-1,200,,Thread Group 1-1,true,,5419,1,18,1716,1,0,DESKTOP-TH2QNLV
+1640480487965,0,Debug Sampler,200,OK,Thread Group 1-1,true,,317,1,18,0,1,0,DESKTOP-TH2QNLV
+1640480486168,1717,enterstore,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,true,,5736,1,18,1716,1,0,DESKTOP-TH2QNLV
+1640480487966,240,signin-2,200,,Thread Group 1-1,true,,3849,1,18,240,1,0,DESKTOP-TH2QNLV
+1640480488207,0,Debug Sampler,200,OK,Thread Group 1-1,true,,1335,1,18,0,1,0,DESKTOP-TH2QNLV
+1640480487966,240,signin,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,true,,5184,1,18,240,1,0,DESKTOP-TH2QNLV
+1640480488209,364,signin-3,200,,Thread Group 1-1,true,,5115,1,18,182,1,0,DESKTOP-TH2QNLV
+1640480488574,180,signin-4,200,,Thread Group 1-1,true,,4897,1,18,180,1,0,DESKTOP-TH2QNLV
+1640480488208,544,signin,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,true,,10012,1,18,362,1,0,DESKTOP-TH2QNLV
+1640480488755,182,selectfish-5,200,,Thread Group 1-1,true,,3819,1,18,182,1,0,DESKTOP-TH2QNLV
+1640480488755,182,selectfish,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,true,,3819,1,18,182,1,0,DESKTOP-TH2QNLV
+1640480488939,175,selectproductfish-7,200,,Thread Group 1-1,true,,3997,1,18,175,1,0,DESKTOP-TH2QNLV
+1640480488938,175,selectproductfish,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,true,,3997,1,18,175,1,0,DESKTOP-TH2QNLV
+1640480489115,177,addtocart-8,200,,Thread Group 1-1,true,,4559,1,18,177,1,0,DESKTOP-TH2QNLV
+1640480489114,177,addtocart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,true,,4559,1,18,177,1,0,DESKTOP-TH2QNLV
+1640480486242,3209,enterstore-1,200,,Thread Group 1-1,true,,5419,1,18,3208,1,0,DESKTOP-TH2QNLV
+1640480489452,0,Debug Sampler,200,OK,Thread Group 1-1,true,,317,1,18,0,1,0,DESKTOP-TH2QNLV
+1640480486175,3209,enterstore,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,true,,5736,1,18,3208,1,0,DESKTOP-TH2QNLV
+1640480489293,183,proceedcheckout-9,200,,Thread Group 1-1,true,,5296,1,18,182,1,0,DESKTOP-TH2QNLV
+1640480489292,183,proceedcheckout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,true,,5296,1,18,182,1,0,DESKTOP-TH2QNLV
+1640480489453,181,signin-2,200,,Thread Group 1-1,true,,3847,1,18,180,1,0,DESKTOP-TH2QNLV
+1640480489635,0,Debug Sampler,200,OK,Thread Group 1-1,true,,1335,1,18,0,1,0,DESKTOP-TH2QNLV
+1640480489453,181,signin,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,true,,5182,1,18,180,1,0,DESKTOP-TH2QNLV
+1640480489477,180,payment-10,200,,Thread Group 1-1,true,,4410,1,18,180,1,0,DESKTOP-TH2QNLV
+1640480489476,180,payment,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,true,,4410,1,18,180,1,0,DESKTOP-TH2QNLV
+1640480489658,186,conformationorder-11,200,,Thread Group 1-1,true,,5105,1,18,186,1,0,DESKTOP-TH2QNLV
+1640480489657,186,conformationorder,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,true,,5105,1,18,186,1,0,DESKTOP-TH2QNLV
+1640480489640,357,signin-3,200,,Thread Group 1-1,true,,5115,1,18,176,1,0,DESKTOP-TH2QNLV
+1640480489845,188,backtohome-12,200,,Thread Group 1-1,true,,4897,1,18,187,1,0,DESKTOP-TH2QNLV
+1640480489845,188,backtohome,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,true,,4897,1,18,187,1,0,DESKTOP-TH2QNLV
+1640480489998,177,signin-4,200,,Thread Group 1-1,true,,4897,1,18,177,1,0,DESKTOP-TH2QNLV
+1640480489640,534,signin,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,true,,10012,1,18,353,1,0,DESKTOP-TH2QNLV
+1640480490176,179,selectfish-5,200,,Thread Group 1-1,true,,3819,1,16,179,1,0,DESKTOP-TH2QNLV
+1640480490175,179,selectfish,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,true,,3819,1,16,179,1,0,DESKTOP-TH2QNLV
+1640480490034,361,signout-13,200,,Thread Group 1-1,true,,5021,1,14,176,1,0,DESKTOP-TH2QNLV
+1640480490356,173,selectproductfish-7,200,,Thread Group 1-1,true,,3997,1,10,173,1,0,DESKTOP-TH2QNLV
+1640480490355,173,selectproductfish,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,true,,3997,1,10,173,1,0,DESKTOP-TH2QNLV
+1640480490396,177,signout-14,200,,Thread Group 1-1,true,,4728,1,8,177,1,0,DESKTOP-TH2QNLV
+1640480490033,538,signout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,true,,9749,1,8,353,1,0,DESKTOP-TH2QNLV
+1640480490530,177,addtocart-8,200,,Thread Group 1-1,true,,4559,1,6,177,1,0,DESKTOP-TH2QNLV
+1640480490529,177,addtocart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,true,,4559,1,6,177,1,0,DESKTOP-TH2QNLV
+1640480490708,175,proceedcheckout-9,200,,Thread Group 1-1,true,,5296,1,6,175,1,0,DESKTOP-TH2QNLV
+1640480490708,175,proceedcheckout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,true,,5296,1,6,175,1,0,DESKTOP-TH2QNLV
+1640480490884,177,payment-10,200,,Thread Group 1-1,true,,4410,1,6,177,1,0,DESKTOP-TH2QNLV
+1640480490884,177,payment,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,true,,4410,1,6,177,1,0,DESKTOP-TH2QNLV
